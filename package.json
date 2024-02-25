@@ -1,0 +1,30 @@
+{
+  "name": "serverlesswp-plus",
+  "version": "0.1.2",
+  "description": "Run PHP on Lambda (AWS, Netlify, Vercel)",
+  "keywords": [
+    "serverless",
+    "wordpress",
+    "php",
+    "netlify",
+    "vercel"
+  ],
+  "main": "src/index.js",
+  "author": "Michel Tsilavo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/micheltsiresitsilavo/serverlesswp-plus.git"
+  },
+  "dependencies": {
+    "isbinaryfile": "^5.0.0",
+    "node-fetch": "^2.6.9",
+    "wait-on": "^7.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "scripts": {
+    "test": "jest --testPathIgnorePatterns 'e2e'"
+  }
+}
